@@ -1,0 +1,25 @@
+#principal{
+    border: solid 1px #cccccc;
+    padding: 5px;
+    margin: 0 auto;
+    width: 85%;
+    background: #82baf9;
+}
+fieldset{
+    margin-bottom: 10px;
+}
+legend{
+    border: solid 1px #b5d5f8;
+    padding: 5px;
+    font-weight: bold;
+    background: #cccccc;
+    border-radius: 15px;
+}
+#foto{
+    border: solid 2px;
+    margin: 10px;
+    margin-left: 20px;
+}
+body{
+    background: url(imagenes/fote.jpg);
+}
