@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+     <!--referencia a Bootstrap a traves de un cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed top"><!--Esta es la barra de navegacion-->
+            <div class="container-fluid">
+                <a class="navbar-brand">Portafolio Personal y Profesional</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Informacion de contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+           </nav>
+    
+           <section><!--Informacion Personal-->
+    
+           </section>
+    
+    
+           <section><!--Informacion sobre proyectos-->
+    
+            </section>
+    
+    
+             <section><!--Informacion de contactos-->
+        
+             </section>      
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>s
+        <title>Hoja de vida</title>
+        <div id="principal">
+        <img src="imagenes/foto.jpg" id="foto" align="left" width="180" height="200">
+        <h1 align="center"> Esteban Martinez Trejos</h1>
+        <h3 align="center">Tecnologo en Sistemas</h3>
+        <p align="center">emanueltrejos16@gmail.com</p>
+        <p align="center">Colombiano</p>
+        <p align="center">📞 +57 3172599360</p>
+        </br>
+        </br>
+        </br>
+        <fieldset>
+            <legend>PERFIL PROFESIONAL</legend>
+            <ul>
+                <p>Tecnólogo en sistemas de información con capacidad de desarrollar de aplicaciones orientadas a la web y dispositivos móviles con
+                    estándares de calidad y usabilidad.
+                    Con conocimientos solidos en tecnologías como || Java || Python || HTML || Css || Desarrollando actividades de una forma
+                    responsable, con optimo desempeño y con grandes expectativas de superación laboral.</p>
+            </ul>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+        <legend>FORMACIÓN ACADEMICA</legend>
+        <ul>
+            <li><b>Institución Educativa Rafael Navia Varón</b></li>
+            <br>
+            <li><b>Bachiller técnico Industrial en Sistemas.</b></li>
+            <br>
+            <li><b>Universidad Santiago De Cali:&nbsp;</b>Tecnólogo en sistemas de información.</li>
+            <br>
+            <li><b>Servicio nacional de aprendizaje SENA:&nbsp;</b>Procesos de Soporte Técnico para el Mantenimiento de Equipos de Cómputo.</li>
+            <br>
+            <li><b>Ministerio TIC:&nbsp;</b>Lenguaje programación Python</li>
+        </ul>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+        <legend>SKILLS</legend>
+            <ul id="taskList">
+              <!-- La lista empieza sin elementos -->
+              <li><b>Java & Springboot</b></li>
+              <br>
+            </ul>
+          
+            <!-- Botones de agregar, editar y eliminar -->
+            <button id="addTask">Agregar Skills</button>
+            </fieldset>
+          
+            <script src="script.js"></script>
+        <br>
+        <fieldset>
+        <legend>EXPERIENCIA LABORAL</legend>
+        <ul>
+        <li><b>DECOM:&nbsp;</b>Auxiliar Sistemas</li>
+        <li><b>Fecha:&nbsp;</b>Semestre 2023 I</li>
+        <li><b>Jefe inmediato:&nbsp;</b>Jair Guerrero - 📞311-729-80-26</li>
+        </ul>
+        <script src="javascript/script.js"></script>
+    </body>
+    </html>
+</head>
